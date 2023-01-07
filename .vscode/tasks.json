@@ -10,6 +10,13 @@
 			"detail": "parcel build src/index.html"
 		},
 		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "parcel src/index.html"
+		},
+		{
 			"type": "shell",
 			"group": "build",
 			"label": "zip",
