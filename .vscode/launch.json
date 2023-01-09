@@ -1,10 +1,15 @@
 {
-	"configurations": [
-		{
-			"type": "chrome",
-			"name": "http://127.0.0.1:3000/widget.html",
-			"request": "launch",
-			"url": "http://127.0.0.1:3000/widget.html"
-		}
-	]
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:1234",
+            "webRoot": "${workspaceFolder}",
+            "breakOnLoad": true,
+            "sourceMapPathOverrides": {
+                "/__parcel_source_root/*": "${webRoot}/*"
+            }
+        }
+    ]
 }
